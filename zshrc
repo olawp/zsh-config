@@ -105,6 +105,6 @@ alias zdir="cd ~/.oh-my-zsh/custom/plugins/"
 alias zsrc="source ~/.zshrc & cp ~/.zshrc ~/git/zsh-config/.zshrc & mv ~/git/zsh-config/.zshrc ~/git/zsh-config/zshrc"
 alias kernel="uname -r"
 alias zgit="cd ~/git/zsh-config/; git add *; git commit -m 'Automated update'; git push"
-alias p="pacman"
+alias p="sudo pacman"
 
 autoload -U compinit && compinit
