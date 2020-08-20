@@ -106,5 +106,6 @@ alias zsrc="source ~/.zshrc & cp ~/.zshrc ~/git/zsh-config/.zshrc & mv ~/git/zsh
 alias kernel="uname -r"
 alias zgit="cd ~/git/zsh-config/; git add *; git commit -m 'Automated update'; git push"
 alias p="sudo pacman"
+alias orphans='sudo pacman -Rs $(pacman -Qdtq)'
 
 autoload -U compinit && compinit
