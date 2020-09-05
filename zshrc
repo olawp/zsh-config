@@ -107,5 +107,6 @@ alias kernel="uname -r"
 alias zgit="cd ~/git/zsh-config/; git add *; git commit -m 'Automated update'; git push"
 alias p="sudo pacman"
 alias orphans='sudo pacman -Rs $(pacman -Qdtq)'
+alias rmcache='sudo pacman -Sc'
 
 autoload -U compinit && compinit
