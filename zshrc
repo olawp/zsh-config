@@ -109,6 +109,5 @@ alias p="sudo pacman"
 alias orphans='sudo pacman -Rs $(pacman -Qdtq)'
 alias rmcache='sudo pacman -Sc'
 alias gits='git status'
-alias gap='git add -p'
 
 autoload -U compinit && compinit
