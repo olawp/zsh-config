@@ -108,5 +108,6 @@ alias zgit="cd ~/git/zsh-config/; git add *; git commit -m 'Automated update'; g
 alias p="sudo pacman"
 alias orphans='sudo pacman -Rs $(pacman -Qdtq)'
 alias rmcache='sudo pacman -Sc'
+alias gits='git status'
 
 autoload -U compinit && compinit
